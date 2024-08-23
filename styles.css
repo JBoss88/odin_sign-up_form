@@ -13,11 +13,34 @@ body {
 .form-paragraph,
 .form-row,
 .button-message {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+   
+   
 }
 
 .form-paragraph {
     font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 700px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 5px 240px 0px 0px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-row > h1 {
+    font-size: 50px;
 }
