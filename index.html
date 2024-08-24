@@ -8,40 +8,48 @@
 </head>
 
 <body>
-    <header class="form-paragraph">
+    <header class="form-header">
         <div class="paragraph">This is not a real company. 
         If you have been looking for the best guitar lessons in the USA, look no further! Sign up today!!</div>
     </header>
    <form action="" method="get" class="form">
     <h1>Fill out the form below!</h1>
+            <div class="form-row">
+                <label for="first_name">FIRST NAME:</label>
+                <input type="text" id="first_name" name="first_name" maxlength="25">
+            </div>
+            <div class="form-row">
+                <label for="last_name">LAST NAME:</label>
+                <input type="text" id="last_name" name="last_name" maxlength="25">
+            </div>
+            <div class="form-row">
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
         <div class="form-row">
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name" maxlength="25">
-        </div>
-        <div class="form-row">
-            <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name" name="last_name" maxlength="25">
-        </div>
-        <div class="form-row">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div class="form-row">
-            <label for="phone_number">PHONE NUMBER</label>
+            <label for="phone_number">PHONE NUMBER:</label>
             <input type="tel" id="phone_number" name="phone_number" maxlength="14">
         </div>
         <div class="form-row">
-            <label for="password">*PASSWORD</label>
+            <label for="password">*PASSWORD:</label>
             <input type="password" id="password" name="password" minlength="7" maxlength="30" required>
         </div>
         <div class="form-row">
-            <label for="confirm_password">*CONFIRM PASSWORD</label>
-            <input type="password" id="confirm_password" name="confirm_password" minlength="7" maxlength="30" required>
+                <label for="confirm_password">*CONFIRM PASSWORD:</label>
+                <input type="password" id="confirm_password" name="confirm_password" minlength="7" maxlength="30" required>
         </div>
-        <div class="button-message"
+
+        <div class="button-message">
             <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="">Log in</a>
+            <p class="under-button">Already have an account? <a href="">Log in</a>
         </div>
    </form>
+
+    <div class="test">Photo by
+        <a href="https://www.pexels.com/@david-bartus-43782/">David Bartus </a>
+        on
+        <a href="https://www.pexels.com/"> Pexels</a>
+    </div>
 </body>
 </html>
